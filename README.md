@@ -22,7 +22,6 @@ primetrade-assignment/
     ├── src/
     │   ├── api/               # Axios instance & request interceptors
     │   └── components/        # UI components (Auth, TaskForm, TaskCard)
-<<<
 
 ---
 
@@ -34,37 +33,37 @@ Make sure you have Node.js and MongoDB installed on your system before starting.
 1. Open a terminal and move into the backend folder:
    ```bash
    cd backend
-   <<<
+   
 2. Install the node modules:
    ```bash
    npm install
-   <<<
+   
 3. Create a `.env` file in the root of the `backend/` folder and add your configuration values:
    ```env
    PORT=5000
    NODE_ENV=development
    MONGODB_URI=mongodb://127.0.0.1:27017/primetrade_db
    JWT_SECRET=any_random_secure_string_here
-   <<<
+   
 4. Run the backend server in development mode:
    ```bash
    npm run dev
-   <<<
+   
    *Note: You should see "MongoDB Connected" in your terminal log.*
 
 ### 2. Spinning up the Frontend
 1. Open a separate terminal window and change into the frontend directory:
    ```bash
    cd frontend
-   <<<
+   
 2. Install the frontend dependencies:
    ```bash
    npm install
-   <<<
+   
 3. Boot up the Vite local server:
    ```bash
    npm run dev
-   <<<
+   
 4. Click the link shown in the terminal (usually `http://localhost:5173`) to open the app in your browser.
 
 ---
